@@ -1,0 +1,12 @@
+get:
+  tags: [ demo ]
+  summary: hello api
+  parameters:
+    - $ref: "#/parameters/name.yaml"
+  responses:
+    200:
+      schema:
+        $ref: "#/definitions/SuccessResponse"
+    default:
+      schema:
+        $ref: "#/definitions/ErrorResponse"

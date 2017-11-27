@@ -1,0 +1,37 @@
+{
+  "name": "ruo-swagger-parser",
+  "version": "0.1.0",
+  "description": "swagger parser used by ruo framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruojs/ruo-swagger-parser.git"
+  },
+  "keywords": [
+    "ruo",
+    "swagger",
+    "parser"
+  ],
+  "author": "Gaara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruojs/ruo-swagger-parser/issues"
+  },
+  "homepage": "https://github.com/ruojs/ruo-swagger-parser#readme",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "js-yaml": "^3.10.0",
+    "json-refs": "^3.0.2",
+    "lodash.find": "^4.6.0",
+    "lodash.isnumber": "^3.0.3",
+    "lodash.merge": "^4.6.0",
+    "z-schema": "^3.19.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}

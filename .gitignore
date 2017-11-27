@@ -1,0 +1,6 @@
+*.log
+*.out
+
+node_modules
+.npmrc
+dist
