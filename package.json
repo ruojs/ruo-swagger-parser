@@ -15,7 +15,7 @@
     "swagger",
     "parser"
   ],
-  "author": "Gaara",
+  "author": "gaara <senellise@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ruojs/ruo-swagger-parser/issues"
