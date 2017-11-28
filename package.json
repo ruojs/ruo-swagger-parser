@@ -27,7 +27,6 @@
     "json-refs": "^3.0.2",
     "lodash.find": "^4.6.0",
     "lodash.isnumber": "^3.0.3",
-    "lodash.merge": "^4.6.0",
     "z-schema": "^3.19.0"
   },
   "devDependencies": {
