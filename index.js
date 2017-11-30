@@ -10,7 +10,12 @@ module.exports = function(root, pattern = '**/*.spec.yaml', suffix = '.spec.yaml
   const definition = parse(root, pattern, suffix, prefix, shadow)
 
   return resolve(definition).then(({resolved}) => {
-    validate(resolved)
+    try {
+      validate(resolved)
+    } catch (err) {
+      console.error(err)
+      process.exit(1)
+    }
     return resolved
   })
 }
