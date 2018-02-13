@@ -1,6 +1,6 @@
 {
   "name": "ruo-swagger-parser",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "swagger parser used by ruo framework",
   "main": "index.js",
   "scripts": {
